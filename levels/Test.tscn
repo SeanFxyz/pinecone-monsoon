@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://towers/tower0/Tower0.tscn" type="PackedScene" id=1]
+
+[node name="TestLecel" type="Node2D"]
+
+[node name="Tower0" parent="." instance=ExtResource( 1 )]
+position = Vector2( 123.612, 62.2263 )
+rotation = 0.760963
